@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    color: #777;
+    font: 400 15px/1.8 "Lato", sans-serif;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    position: relative;
+    opacity: 0.65;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+ 
+
+.bgimg-2 {
+    min-height: 700px;
+    background-image: url("http://i1289.photobucket.com/albums/b509/ek208918/IMG_8007_zpsgidalo39.jpg");
+}
+
+.bgimg-3 {
+    min-height: 700px;
+    background-image: url("http://i1289.photobucket.com/albums/b509/ek208918/IMG_7325_zpsl7zwao8r.jpg");
+}
+
+.bgimg-4 {
+  min-height:700px;
+  background-image: url("http://i1289.photobucket.com/albums/b509/ek208918/IMG_8176_zpsjcwupkmq.jpg")
+}
+
+.hero {
+    padding: 50px 80px;
+    color: #444;
+    background-color: white;
+    text-align: center;
+    text-align: justify;
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    color: #000;
+    text-align: center;
+}
+
+.description-container {
+    position: relative;
+}
+
+.description {
+    padding: 50px 80px;
+    color: #ddd;
+    background-color: #fdd5b1;
+    text-align: center;
+    text-align: justify;
+}
+
+.caption span.border {
+    padding: 18px;
+    color: #f7f7f7;
+    background-color: #4a4a4a;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+h3 {
+    color: #111;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    letter-spacing: 5px;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
