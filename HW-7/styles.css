@@ -1,0 +1,26 @@
+#text {
+  background-color: #5F9EA0;
+  color: #9ACD32;
+  font-family: "Arial Black", Arial Black;
+  font-size: 17px;
+  text-align: center;
+}
+body {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("http://i1289.photobucket.com/albums/b509/ek208918/1875a4d389efe8ecede4956e7c9eaa5b_zpshxehha5e.jpg");
+}
+.button {
+  border-style: solid;
+  border-color: #FF6347;
+  background-color: #	#BC8F8F;
+  border-radius: 30px;
+  margin: 15px;
+  font-size: 20px;
+}
+#buttonHolder {
+  background-color: #9ACD32;
+  color: #FF6347;
+  text-align: center;
+
+}
