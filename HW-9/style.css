@@ -1,0 +1,21 @@
+body {
+    background-color: #3D9970;
+     color: #3D9970;
+     font-family: 'Arial';
+}
+
+#top {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    width: 100%;
+}
+
+#Head {
+    font-size: 100px;
+    color: #01FF70;
+}
+
+#top, #input {
+    text-align: center;
+}
